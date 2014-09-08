@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<string name="cancel">Cancelar</string>
+	<string name="select">Seleccione</string>
+	<string name="selected">Seleccionar</string>
+	<string name="male">Hombre</string>
+	<string name="female">Mujer</string>
+</resources>
