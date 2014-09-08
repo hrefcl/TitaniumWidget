@@ -47,7 +47,7 @@ multiple : false on default
 ```
 
 ```js
-selectedValueIndex :  permit select value in comobobox 
+selectedValueIndex :  permit select value in combobox 
 ```
 
 ```js
