@@ -42,12 +42,21 @@ Tw.UI = require('/widget/UI');
 	});
 ```
 ### Supported params Combobox 
+```js
+multiple : false on default
+```
 
-multiple : false on default 
-selectedValueIndex :  permit select value in comobobox
+```js
+selectedValueIndex :  permit select value in comobobox 
+```
+
+```js
 labelSelect : value of select element
+```
+
+```js
 value if you need exclude any element, do you need put in array values {title : 'Element to explude',value : 'exclude' }
-		 
+```	 
 
 ## License
 (The MIT License)
