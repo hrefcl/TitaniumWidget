@@ -8,10 +8,6 @@ Set of widget for Titanium in developer status
 
 Do yo need call to widget in app.js
 
-function Tw() {}
-
-Tw.UI = require('/widget/UI');
-
 ```js
 function Tw() {}
 
@@ -22,7 +18,6 @@ Tw.UI = require('/widget/UI');
 ### Combobox 
 
 ```js
-
 	sex = Tw.UI.createCombobox({
 		borderWidth : '1dp',
 		borderRadius : '5dp',
@@ -45,9 +40,14 @@ Tw.UI = require('/widget/UI');
 		Ti.API.debug(e.data.title);
 		Ti.API.debug(e.data.value);
 	});
-
-
 ```
+# Supported params 
+
+multiple : false on default 
+selectedValueIndex :  permit select value in comobobox
+labelSelect : value of select element
+value if you need exclude any element, do you need put in array values {title : 'Element to explude',value : 'exclude' }
+		 
 
 ## License
 (The MIT License)
