@@ -41,7 +41,7 @@ Tw.UI = require('/widget/UI');
 		Ti.API.debug(e.data.value);
 	});
 ```
-# Supported params 
+### Supported params Combobox 
 
 multiple : false on default 
 selectedValueIndex :  permit select value in comobobox
